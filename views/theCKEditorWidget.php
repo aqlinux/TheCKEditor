@@ -34,7 +34,7 @@
 
 require_once($ckeditor);
 
-$oCKeditor = new TheCKEditorWidget($ckBasePath);
+$oCKeditor = new CKEditor($ckBasePath);
 
 // configure ckeditor:
 if ($width) {
